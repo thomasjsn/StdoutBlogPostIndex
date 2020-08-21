@@ -1,18 +1,18 @@
 {
-	"@metadata": {
-		"authors": [
-			"Thomas Jensen"
-		]
-	},
-	"blogpostindex": "Blog post index",
-	"blogpostindex-desc": "Shows a [[Special:BlogPostIndex|blog post index]], grouped by year and month",
-	"blogpostindex-header": "'''This page lists {{PLURAL:$1|blog post|$1 blog posts}} on the wiki.'''",
-	"blogpostindex-limitlinks": "Show up to $1 pages",
-	"blogpostindex-namespace": "Namespace:",
-	"blogpostindex-none": "No entries were found.",
-	"blogpostindex-ns-header": "'''This page lists {{PLURAL:$1|blog post|$1 blog posts}} in the $2 namespace.'''",
-	"blogpostindex-showing": "Listing {{PLURAL:$1|blog post|$1 blog posts}}:",
-	"blogpostindex-submit": "Go",
-	"blogpostindex-showredir": "Show redirect pages",
-	"blogpostindex-hideredir": "Hide redirect pages"
+    "@metadata": {
+        "authors": [
+            "Thomas Jensen"
+        ]
+    },
+    "blogpostindex": "Blog post index",
+    "blogpostindex-desc": "Shows a [[Special:BlogPostIndex|blog post index]], grouped by year and month",
+    "blogpostindex-header": "'''This page lists {{PLURAL:$1|blog post|$1 blog posts}} on the wiki.'''",
+    "blogpostindex-limitlinks": "Show up to $1 pages",
+    "blogpostindex-namespace": "Namespace:",
+    "blogpostindex-none": "No entries were found.",
+    "blogpostindex-ns-header": "'''This page lists {{PLURAL:$1|blog post|$1 blog posts}} in the $2 namespace.'''",
+    "blogpostindex-showing": "Listing {{PLURAL:$1|blog post|$1 blog posts}}:",
+    "blogpostindex-submit": "Go",
+    "blogpostindex-showredir": "Show redirect pages",
+    "blogpostindex-hideredir": "Hide redirect pages"
 }

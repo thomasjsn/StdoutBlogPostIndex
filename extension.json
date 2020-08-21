@@ -1,32 +1,32 @@
 {
-	"name": "StdoutBlogPostIndex",
-	"version": "0.1.0",
-	"author": [
-		"Thomas Jensen"
-	],
-	"license-name": "GPL-2.0-or-later",
+    "name": "StdoutBlogPostIndex",
+    "version": "0.1.0",
+    "author": [
+        "Thomas Jensen"
+    ],
+    "license-name": "GPL-2.0-or-later",
     "url": "https://github.com/thomasjsn/StdoutBlogPostIndex",
-	"descriptionmsg": "blogpostindex-desc",
-	"type": "specialpage",
-	"requires": {
-		"MediaWiki": ">= 1.32.0"
-	},
-	"config": {
-		"BlogPostIndexLimit": 50
-	},
-	"SpecialPages": {
-		"BlogPostIndex": "SpecialBlogPostIndex"
-	},
-	"MessagesDirs": {
-		"NewestPages": [
-			"i18n"
-		]
-	},
-	"ExtensionMessagesFiles": {
-		"BlogPostIndexAlias": "BlogPostIndex.alias.php"
-	},
-	"AutoloadClasses": {
-		"SpecialBlogPostIndex": "SpecialBlogPostIndex.php"
-	},
-	"manifest_version": 1
+    "descriptionmsg": "blogpostindex-desc",
+    "type": "specialpage",
+    "requires": {
+        "MediaWiki": ">= 1.32.0"
+    },
+    "config": {
+        "BlogPostIndexLimit": 50
+    },
+    "SpecialPages": {
+        "BlogPostIndex": "SpecialBlogPostIndex"
+    },
+    "MessagesDirs": {
+        "NewestPages": [
+            "i18n"
+        ]
+    },
+    "ExtensionMessagesFiles": {
+        "BlogPostIndexAlias": "BlogPostIndex.alias.php"
+    },
+    "AutoloadClasses": {
+        "SpecialBlogPostIndex": "SpecialBlogPostIndex.php"
+    },
+    "manifest_version": 1
 }

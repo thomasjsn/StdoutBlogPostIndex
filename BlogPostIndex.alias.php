@@ -10,5 +10,5 @@ $specialPageAliases = [];
 
 /** English */
 $specialPageAliases['en'] = [
-	'BlogPostIndex' => [ 'BlogPostIndex' ],
+    'BlogPostIndex' => [ 'BlogPostIndex' ],
 ];
