@@ -8,7 +8,7 @@ class SpecialBlogPostIndex extends IncludableSpecialPage {
     private $redirects = null;
 
     public function __construct() {
-        parent::__construct( 'BlogPostIndex', '', true, false, 'default', true );
+        parent::__construct( 'BlogPosts', '', true, false, 'default', true );
     }
 
     /**
@@ -88,9 +88,10 @@ class SpecialBlogPostIndex extends IncludableSpecialPage {
             $output = [];
             $linkRenderer = $this->getLinkRenderer();
             foreach ( array_keys($newestBlogPosts) as $date) {
-                $output[] = "<h5>" . DateTime::createFromFormat('Ym', $date)->format('F Y') . "</h5>";
+                $output[] = "<h4>" . DateTime::createFromFormat('Ym', $date)->format('F Y') . "</h4>";
                 $output[] = "<ul>";
                 foreach ( $newestBlogPosts[$date] as $newestBlogPost ) {
+                    #$day = DateTime::createFromFormat('YmdHms', $newestBlogPost['created'])->format('jS');
                     $output[] = "<li>" . $linkRenderer->makeKnownLink($newestBlogPost['title'], $newestBlogPost['title']->getSubpageText()) . "</li>";
                 }
                 $output[] = "</ul>";
@@ -223,6 +224,6 @@ class SpecialBlogPostIndex extends IncludableSpecialPage {
      * @inheritDoc
      */
     protected function getGroupName() {
-        return 'changes';
+        return 'pages';
     }
 }

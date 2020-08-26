@@ -1,6 +1,6 @@
 <?php
 /**
- * Aliases for Special:NewestPages
+ * Aliases for Special:BlogPosts
  *
  * @file
  * @ingroup Extensions
@@ -10,5 +10,5 @@ $specialPageAliases = [];
 
 /** English */
 $specialPageAliases['en'] = [
-    'BlogPostIndex' => [ 'BlogPostIndex' ],
+    'BlogPosts' => [ 'BlogPosts' ]
 ];

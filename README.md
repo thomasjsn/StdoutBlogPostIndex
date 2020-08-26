@@ -14,7 +14,7 @@ This extension creates a special page where pages in the NS_BLOG namespace is li
 > This extension is a work in progress!
 
 ## Installation
-* Clone this repository in s directory called `StdoutBlogPostIndex` in your `extensions/` folder.
+* Clone this repository in a directory called `StdoutBlogPostIndex` in your `extensions/` folder.
 * Add the following code at the bottom of your `LocalSettings.php`:
 ```
 wfLoadExtension( 'StdoutBlogPostIndex' );
@@ -23,8 +23,8 @@ wfLoadExtension( 'StdoutBlogPostIndex' );
 
 ## Include
 ```
-{{Special:BlogPostIndex}}
+{{Special:BlogPosts}}
 ```
 
 ## Author
-[Thomas Jensen](https://thomas.stdout.no)
+[Thomas Jensen](https://stdout.no/thomas)

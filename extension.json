@@ -15,10 +15,10 @@
         "BlogPostIndexLimit": 50
     },
     "SpecialPages": {
-        "BlogPostIndex": "SpecialBlogPostIndex"
+        "BlogPosts": "SpecialBlogPostIndex"
     },
     "MessagesDirs": {
-        "NewestPages": [
+        "StdoutBlogPostIndex": [
             "i18n"
         ]
     },

@@ -4,8 +4,8 @@
             "Thomas Jensen"
         ]
     },
-    "blogpostindex": "Blog post index",
-    "blogpostindex-desc": "Shows a [[Special:BlogPostIndex|blog post index]], grouped by year and month",
+    "blogposts": "Blog posts",
+    "blogpostindex-desc": "Adds a [[Special:BlogPosts|special page]] to view blog posts, grouped by year and month",
     "blogpostindex-header": "'''This page lists {{PLURAL:$1|blog post|$1 blog posts}} on the wiki.'''",
     "blogpostindex-limitlinks": "Show up to $1 pages",
     "blogpostindex-namespace": "Namespace:",
